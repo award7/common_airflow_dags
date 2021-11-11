@@ -65,3 +65,4 @@ with DAG(dag_id='bucket-monitor', default_args=default_args, schedule_interval=N
         )
         hypercapnia_bucket_monitor >> trigger_hypercapnia_dags
 
+
